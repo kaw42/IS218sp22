@@ -8,6 +8,27 @@ from controllers.docker_controller import DockerController
 from controllers.python_controller import PythonController
 from controllers.cicd_controller import CicdController
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 app = Flask(__name__)
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 app.wsgi_app = DebuggedApplication(app.wsgi_app, True)
